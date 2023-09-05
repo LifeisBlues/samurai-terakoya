@@ -1,0 +1,85 @@
+h1, p, body {
+    margin: 0;
+}
+
+p, a {
+    font-size: 20px;
+}
+
+main {
+    padding: 10px;
+}
+
+header {
+    padding-bottom: 20px;
+    background-color: rgb(244, 79, 79);
+    text-align: center;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+}
+
+#parent {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contents {
+    border: 3px solid rgb(238, 204, 204);
+    flex-basis: 25%;
+    padding: 10px 15px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.contents img {
+    margin: 10px 0;
+    width: 70%;
+}
+
+h2 {
+    font-size: 25px;
+    border-bottom: 3px dotted rgb(236, 122, 122);
+}
+
+h2::before {
+    content: "●";
+    color: rgb(239, 111, 139);
+}
+
+.contents p:nth-of-type(2)::first-letter {
+    font-weight: bold;
+    color: rgb(97, 206, 249);
+}
+
+footer {
+    background-color: rgb(244, 79, 79);
+    text-align: center;
+}
+
+a {
+    color: rgb(255, 255, 255);
+}
+
+a:hover {
+    color: rgb(245, 178, 168);
+}
+
+a:visited {
+    color: rgb(193, 234, 251);
+}
+
+@media screen and (max-width: 768px) {
+    .contents h2 {
+        font-size: 30px;
+    }
+
+    .contents p {
+        font-size: 25px;
+    }
+
+    #parent {
+        display: block;
+    }
+}
