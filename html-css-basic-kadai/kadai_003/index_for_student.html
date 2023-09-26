@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="ja">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -20,8 +20,7 @@
       <div class="container">
         <!-- ************************************************ カールセル開始 -->
         <!-- <div id="myCarousel" class="carousel slide" data-bs-ride="carousel"> -->
-        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-
+        <div id="myCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
           
           <!-- <div class="carousel-inner"> -->
           <div class="carousel-inner">
@@ -30,16 +29,24 @@
               <img src="img/top_1.jpg" class="d-block w-100" alt="サンプル画像1">
             </div>
             <div class="carousel-item">
-              <img src="img/top_2.jpg" class="d-block w-100 alt="サンプル画像2">
+              <img src="img/top_2.jpg" class="d-block w-100" alt="サンプル画像2">
             </div>
             <div class="carousel-item">
-              <img src="img/top_3.jpg" class="d-block w-100 alt="サンプル画像3">
+              <img src="img/top_3.jpg" class="d-block w-100" alt="サンプル画像3">
             </div>
           </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
       </div> 
       <!-- ************************************************ カールセル終了 -->
-      <div class="container">
+      <!-- <div class="container">
         <style>
           .button-test {
             padding: 10px 30px;
@@ -52,7 +59,7 @@
             margin: 30px;
             box-shadow: 0 0 20px 0 rgba(0, 0, 0, 30%);
           }
-        </style>
+        </style> -->
 
         <!-- button test -->
         <!-- <button class="btn btn-primary btn-lg shadow">ここを押す</button>
